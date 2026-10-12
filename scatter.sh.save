@@ -1,0 +1,16 @@
+#!/bin/bash
+VM_L1=("192.168.122.19" "192.168.122.20") # Adresele IP ale nodurilor de Nivel 1 [cite: 866]
+FISIER=$1
+DESTINATIE=$2
+
+if [ $# -ne 2 ]; then
+    echo "Utilizare: $0 <fisier> <destinatie>" [cite: 870]
+    exit 1
+fi
+
+for VM in "${VM_L1[@]}"; do
+    echo "[Host] Trimitere $FISIER catre parintele $VM..." [cite: 873]
+    scp "$FISIER" "student@$VM:$DESTINATIE" [cite: 874]
+    # Distribuție în cascadă către nodurile copil (exemplu IP-uri L2)
+    ssh student@$VM "scp $DESTINATIE/$(basename $FISIER) student@192.168.100.11:$DESTINATIE" [cite: 876]
+done
