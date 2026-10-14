@@ -1,10 +1,11 @@
 # Nested Virtualization & Cascaded Load Balancing Infrastructure
 
 ## 👥 Authors & Team
-* **[Numele Tău]** - *Infrastructure & GitHub Management* - [Profilul tău de GitHub](link-catre-profil)
-* **[Numele Coechipierului 1]** - *Virtualization & Configuration*
-* **[Numele Coechipierului 2]** - *Networking & Routing*
-
+This project was a collaborative effort by the following team members:
+* **Samman Fady** - *Host Preparation, Base Image Setup & Nested Virtualization (Chapters 1-3)* - [GitHub Profile](link)
+* **Anisia Lupu** - *Automation, Scripting & Distributed Systems Architecture (Chapters 4-6)* - [GitHub Profile](link)
+* **Khan Hadi** - *Testing & Final Demonstration (Chapter 7)* - [GitHub Profile](link)
+  
 ## 📌 Project Overview
 This repository contains the Infrastructure as Code (IaC) configurations, network definitions, and automation scripts for a complex, multi-tier nested virtualization project. The environment simulates a highly available distributed architecture built entirely from scratch using KVM/Libvirt and Apache2.
 
