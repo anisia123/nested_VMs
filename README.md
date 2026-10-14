@@ -1,5 +1,10 @@
 # Nested Virtualization & Cascaded Load Balancing Infrastructure
 
+## 👥 Authors & Team
+* **[Numele Tău]** - *Infrastructure & GitHub Management* - [Profilul tău de GitHub](link-catre-profil)
+* **[Numele Coechipierului 1]** - *Virtualization & Configuration*
+* **[Numele Coechipierului 2]** - *Networking & Routing*
+
 ## 📌 Project Overview
 This repository contains the Infrastructure as Code (IaC) configurations, network definitions, and automation scripts for a complex, multi-tier nested virtualization project. The environment simulates a highly available distributed architecture built entirely from scratch using KVM/Libvirt and Apache2.
 
