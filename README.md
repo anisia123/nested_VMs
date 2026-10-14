@@ -2,8 +2,8 @@
 
 ## 👥 Authors & Team
 This project was a collaborative effort by the following team members:
-* **Samman Fady** - *Host Preparation, Base Image Setup & Nested Virtualization (Chapters 1-3)* - [GitHub Profile](github.com/anisia123)
-* **Anisia Lupu** - *Automation, Scripting & Distributed Systems Architecture (Chapters 4-6)* - [GitHub Profile](github.com/faydy)
+* **Samman Fady** - *Host Preparation, Base Image Setup & Nested Virtualization (Chapters 1-3)* - [GitHub Profile](https://github.com/anisia123)
+* **Anisia Lupu** - *Automation, Scripting & Distributed Systems Architecture (Chapters 4-6)* - [GitHub Profile](https://github.com/faydy)
 * **Khan Hadi** - *Testing & Final Demonstration (Chapter 7)* - [GitHub Profile](link)
   
 ## 📌 Project Overview
